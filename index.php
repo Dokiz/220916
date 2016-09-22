@@ -7,4 +7,9 @@ echo "</br>";
 echo "</br>";
 $money1=66.144;
 echo sprintf ("%01.1f<br>",$money1);
+echo "</br>";
+echo "</br>";
+$st="Для управления процессами выключения";
+$string=nl2br($st);
+echo $string;
 ?>
